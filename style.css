@@ -5,7 +5,7 @@
 
 body {
     font-size: 15pt;
-    font-size: clamp(1.7rem, 5.2vw, 5.2rem);
+    font-size: clamp(1.4rem, 4.8vw, 4.8rem);
     background: #FFFFFF;
     
   font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -22,7 +22,7 @@ body {
 
 .logo{
     color: white;
-    font-size: clamp(2rem, 5.7vw, 5.7rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     font-weight: bold;
     font-weight: bold;
     font-family: 'Itin', cursive;
@@ -35,7 +35,7 @@ body {
 
 .heading{
     
-    font-size: clamp(2rem, 6vw, 6rem);
+    font-size: clamp(1.8rem, 5.7vw, 5.7rem);
     text-align: center;
     margin-top: 6%;
     margin-bottom: 5%;
@@ -45,7 +45,7 @@ body {
 
 .heading3{
     box-shadow: 20px 20px 20px rgba(0.1, 0.1, 0.1, 0.1);
-    font-size: clamp(4rem, 8vw, 8rem);
+    font-size: clamp(2rem, 6vw, 6rem);
     color: red;
     text-align: center;
     margin-top: 6%;
@@ -60,7 +60,7 @@ body {
 
 .heading4{
     
-    font-size: clamp(2rem, 6vw, 6rem);
+    font-size: clamp(1.8rem, 5.7vw, 5.7rem);
     text-align: center;
     margin-top: 6%;
     margin-bottom: 5%;
@@ -148,7 +148,7 @@ body {
     margin-top: 3%;
     margin-bottom: 6%;
     margin-left: 2%;
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     background: linear-gradient(10deg, #34FF00, #0D9F11, #5AC90B);
     padding: 4%;
     border-radius: 1vh;
@@ -169,7 +169,7 @@ body {
     margin-top: 2%;
     margin-bottom: 6%;
     margin-left: 2%;
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     background: #02EC59;
     padding: 4%;
     border-radius: 1vh;
@@ -204,7 +204,7 @@ body {
 
 
 .alert-paragraph{
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     font-family: none;
     margin-left: 9%;
     margin-right: 9%;
@@ -270,7 +270,7 @@ body {
 .logo2{
     font-weight: bold;
     color: white;
-    font-size: clamp(0.6rem, 3.6vw, 3.6rem);
+    font-size: clamp(0.6rem, 3vw, 3rem);
     font-family: 'Itin', cursive;
      
 
@@ -289,7 +289,7 @@ body {
     border-radius: 1.2vh;
     width: 24%;
     cursor: pointer;
-    font-size: clamp(1.2rem, 4.2vw, 4.2rem);
+    font-size: clamp(1.2rem, 3vw, 3rem);
     box-shadow: 7px 7px 7px rgba(0.3, 0.3, 0.3, 0.3);
 }
 
@@ -301,7 +301,7 @@ body {
 
 .content-btn{
     
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     font-family: none;
   text-decoration: none;
   color: white;
@@ -317,7 +317,7 @@ body {
 
 .content-btn2{
     
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     font-family: none;
   text-decoration: none;
   color: white;
@@ -353,7 +353,7 @@ body {
 
 .content-btn3{
     
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     font-family: none;
   text-decoration: none;
   color: white;
@@ -424,7 +424,7 @@ body {
     margin-bottom: 4%;
     padding: 3%;
     left: 0;
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     border: none;
     border-radius: 1.2vh;
     background: none;
@@ -439,7 +439,7 @@ body {
 .next-page{
 
     text-align: center;
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -456,7 +456,7 @@ body {
     margin-top: 8%;
     margin-bottom: 8%;
     text-decoration: none;
-    font-size: clamp(1.1rem, 4.1vw, 4.1rem);
+    font-size: clamp(1.1rem, 4vw, 4rem);
     background: #0D1891;
     width: 55%;
     border-radius: 1vh;
@@ -527,7 +527,7 @@ body {
     margin-top: 4%;
     text-decoration: none;
     border: 0.1rem solid #000DFF;
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     font-family: none;
     color: #000;
     font-weight: bold;
@@ -546,7 +546,7 @@ body {
     margin-top: 4%;
     text-decoration: none;
     border: 0.1rem solid #FF0000;
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     font-family: none;
     color: #000;
     font-weight: bold;
@@ -563,7 +563,7 @@ body {
     margin-top: 4%;
     text-decoration: none;
     border: 0.1rem solid #FF0000;
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     font-family: none;
     color: #000;
     font-weight: bold;
@@ -582,7 +582,7 @@ body {
 }
 
 .about-paragraph{
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     margin-top: 2%;
     margin-bottom: 2%;
     color: #3E3E3E;
@@ -591,7 +591,7 @@ body {
 }
 
 .about-paragraph2{
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     margin-top: 6%;
     margin-bottom: 2%;
     color: #09F9EC;
@@ -602,7 +602,7 @@ body {
 
 .download-btn{
     
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     display: flex;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
     width: 70%;
@@ -630,7 +630,7 @@ body {
 
 .download-btn2{
     
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3vw, 3rem);
     display: flex;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
     width: 70%;
@@ -710,7 +710,7 @@ body {
     width: 75%;
     justify-content: center;
     background: linear-gradient(10deg, #34FF00, #27AE04, #5AC90B);
-    font-size: clamp(1.1rem, 4.1vw, 4.1rem);
+    font-size: clamp(1.1rem, 3.4vw, 3.4rem);
     font-weight: bold;
     font-family: none;
     color: white;
@@ -735,7 +735,7 @@ body {
     width: 40%;
     justify-content: center;
     background: linear-gradient(10deg, #34FF00, #27AE04, #5AC90B);
-    font-size: clamp(1.1rem, 4.1vw, 4.1rem);
+    font-size: clamp(1.1rem, 3.4vw, 3.4rem);
     font-weight: bold;
     font-family: none;
     color: white;
@@ -750,7 +750,7 @@ body {
     font-family: none;
     display: flex;
     margin: auto;
-    font-size: clamp(1.1rem, 4.1vw, 4.1rem); 
+    font-size: clamp(1.1rem, 3.3vw, 3.3rem); 
     padding: 3%;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -763,7 +763,7 @@ body {
     color: white;
     text-align: center;
     font-family: none;
-    font-size: clamp(1.2rem, 4.2vw, 4.2rem); 
+    font-size: clamp(1.2rem, 3vw, 3rem); 
 }
 
 
@@ -775,7 +775,7 @@ body {
     font-family: none;
     display: flex;
     margin: auto;
-    font-size: clamp(1.1rem, 4.1vw, 4.1rem); 
+    font-size: clamp(1.1rem, 3.3vw, 3.3rem); 
     padding: 3%;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -787,14 +787,14 @@ body {
 
 .paragraph{
     
-    font-size: clamp(1.3rem, 4.3vw, 4.3rem); 
+    font-size: clamp(1.3rem, 3.3vw, 3.3rem); 
     margin-left: 7%;
     margin-right: 7%;
     
 }
 
 .titleparagraph{
-    font-size: clamp(2rem, 6vw, 6rem);
+    font-size: clamp(1.8rem, 4vw, 4rem);
     text-align: center;
     margin-top: 3%;
     color: #0D014D;
@@ -805,7 +805,7 @@ body {
 }
 
 .titleparagraph2{
-    font-size: clamp(2rem, 6vw, 6rem);
+    font-size: clamp(1.8rem, 4vw, 4rem);
     text-align: center;
     margin-top: 3%;
     color: #0F0E9E;
@@ -893,14 +893,14 @@ body {
 }
 
 .paragraphpolicy{
-   font-size: clamp(1.5rem, 5vw, 5rem);
+   font-size: clamp(1.5rem, 3.8vw, 3.8rem);
    font-family: none;
    margin-left: 7%;
    margin-right: 9%;
 }
 
 .paragraph404{
-   font-size: clamp(1.5rem, 5vw, 5rem);
+   font-size: clamp(1.5rem, 3.8vw, 3.8rem);
    font-family: none;
    color: #4C4C51;
    margin-left: 10%;
@@ -910,7 +910,7 @@ body {
 }
 
 .content2{
-    font-size: clamp(1.5rem, 5vw, 5rem);
+    font-size: clamp(1.5rem, 3vw, 3rem);
     font-family: none;
     text-decoration: none;
     color: #0731A6;
@@ -929,7 +929,7 @@ body {
 
 .paragraphpolicy2{
    
-   font-size: clamp(1.2rem, 4.7vw, 4.7rem);
+   font-size: clamp(1.2rem, 3.8vw, 3.8rem);
    font-family: none;
    margin-left: 6%;
    margin-right: 9%;
@@ -941,7 +941,7 @@ body {
     margin-right: 30%;
     margin-left: 2%;
     margin-bottom: 5%;
-    font-size: clamp(1.2rem, 4.2vw, 4.2rem);
+    font-size: clamp(1.2rem, 3.5vw, 3.5rem);
     color: #1302BA;
     
     
@@ -959,7 +959,7 @@ body {
 
 .views{
     
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3.5vw, 3.5rem);
     margin-left: 3%;
     color: #0008A2;
     border: 1.5px solid #0029FF;
@@ -975,7 +975,7 @@ body {
 
 .likes{
     
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3.5vw, 3.5rem);
     margin-left: 3%;
     color: #0008A2;
     border: 1.5px solid #0029FF;
@@ -996,7 +996,7 @@ body {
 }
 
 .play-beat{
-    font-size: clamp(1rem, 4vw, 4rem);
+    font-size: clamp(1rem, 3.6vw, 3.6rem);
     box-shadow: 7px 7px 7px rgba(0.2, 0.2, 0.2, 0.2);
     display: flex;
     width: 43%;
