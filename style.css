@@ -18,6 +18,11 @@ body {
  
 }
 
+.nav-btn:hover{
+    color: #6AF200;
+    border: 0.2vh solid #6AF200;
+    
+}
 
 
 .logo{
