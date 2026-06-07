@@ -22,7 +22,7 @@ body {
 
 .logo{
     color: white;
-    font-size: clamp(1rem, 3vw, 3rem);
+    font-size: clamp(1.4rem, 4vw, 4rem);
     font-weight: bold;
     font-weight: bold;
     font-family: 'Itin', cursive;
