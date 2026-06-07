@@ -5,7 +5,7 @@
 
 body {
     font-size: 15pt;
-    font-size: clamp(1.4rem, 4.8vw, 4.8rem);
+    font-size: clamp(1.4rem, 3.8vw, 3.8rem);
     background: #FFFFFF;
     
   font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
