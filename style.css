@@ -1612,8 +1612,8 @@ body {
     justify-content: center;
     margin: auto;
     margin-bottom: 3%;
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
 
 } 
     
@@ -1645,11 +1645,8 @@ body {
     color: white;
     font-weight: bold;
     font-family: none;
-    box-shadow: 10px 10px 10px rgba(0.3, 0.3, 0.3, 0.3);
-    
-    
-} 
-      
+    box-shadow: 10px 10px 10px rgba(0.3, 0.3, 0.3, 0.3); 
+}   
     .nav-btn{
     text-decoration: none;
     margin-left: 6%;
@@ -1664,18 +1661,14 @@ body {
     cursor: pointer;
     font-size: 62%;
     box-shadow: 7px 7px 7px rgba(0.3, 0.3, 0.3, 0.3);
-}
-      
+}   
     .logodiv{
     position: sticky; top: 0;
     background: #120179;
     box-shadow: 5px 5px 5px rgba(0.2, 0.2, 0.2, 0.2);
     top: 0;
-    padding: 1.3%;
-    
-    
-}
-    
+    padding: 1.3%; 
+} 
     .paragraphpolicy2{
    
    font-size: 50%;
@@ -1683,10 +1676,8 @@ body {
    margin-left: 14%;
    margin-right: 9%;
    color: #363636;
-   line-height: 1.7;
-    
-}
-      
+   line-height: 1.7; 
+}  
     .logo{
     color: white;
     font-size: 60%;
