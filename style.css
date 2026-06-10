@@ -2,29 +2,17 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-size: 15pt;
     font-size: clamp(1.1rem, 3.4vw, 3.4rem);
     background: #FFFFFF;
-    
   font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
  line-height: 1.5;
-
-
-
-
-    
- 
 }
-
 .nav-btn:hover{
     color: #6AF200;
     border: 0.2vh solid #6AF200;
-    
 }
-
-
 .logo{
     color: white;
     font-size: clamp(1.5rem, 4vw, 4rem);
@@ -35,19 +23,14 @@ body {
     margin-left: 4%;
     text-decoration: none;
     cursor: none;
-
 }
-
-.heading{
-    
+.heading{  
     font-size: clamp(1.5rem, 4.5vw, 4.5rem);
     text-align: center;
     margin-top: 6%;
     margin-bottom: 5%;
     text-align: center;
-    
 }
-
 .heading3{
     box-shadow: 20px 20px 20px rgba(0.1, 0.1, 0.1, 0.1);
     font-size: clamp(1.6rem, 5vw, 5rem);
@@ -62,9 +45,7 @@ body {
     padding: 2%;
     
 }
-
 .heading4{
-    
     font-size: clamp(1.5rem, 5vw, 5rem);
     text-align: center;
     margin-top: 6%;
@@ -72,10 +53,7 @@ body {
     text-align: center;
     color: red;
 } 
-
-
 .heading2{
-    
     font-size: clamp(1.5rem, 5vw, 5rem);
     text-align: center;
     margin-left: 5%;
@@ -85,16 +63,10 @@ body {
     text-align: center;
     
 }
-
-
 .form-div{
-    
     margin-top: 5%;
-    margin-bottom: 5%;
-    
+    margin-bottom: 5%; 
 }
-
-
 .contact-info{
     display: flex;
     margin: auto;
@@ -109,14 +81,9 @@ body {
     outline: none;
     
 }
-
-.contact-info:hover{
-    
-    border: 0.2vh solid #00FF2E;
-    
+.contact-info:hover{ 
+    border: 0.2vh solid #00FF2E;  
 }
-
-
 .textarea{
     display: flex;
     margin: auto;
@@ -130,24 +97,14 @@ body {
     outline: none;
     border: 0.2vh solid #D8D8D8;
     font-size: clamp(1rem, 4vw, 4rem);
-    
-    
 }
-
 .textarea:hover{
-    
     border: 0.2vh solid #00FF2E;
-    
 }
-
 .submit:hover{
-    
     color: #074609;
     background: linear-gradient(10deg, #34FF00, #0FFF16, #5AC90B);
-    
 }
-
-
 .submit{
    text-decoration: none;
     margin-top: 3%;
@@ -164,11 +121,8 @@ body {
     justify-content: center;
     cursor: pointer;
     color: white;
-    font-weight: bold;    
-    
+    font-weight: bold;
 }
-
-
 .ok-btn{
     text-decoration: none;
     margin-top: 2%;
@@ -185,38 +139,22 @@ body {
     justify-content: center;
     cursor: pointer;
     color: #000;
-    font-weight: bold;  
-    
+    font-weight: bold;
 }
-
-
-
 .link{
-    
     text-decoration: none;
     color: #142BBF;
     border-bottom: 0.1vh solid #142BBF;
-
-    
 }
-
 .link:hover{
-    
     color: #1C0D6A;
-    
-    
 }
-
-
 .alert-paragraph{
     font-size: clamp(1rem, 3vw, 3rem);
     font-family: none;
     margin-left: 9%;
-    margin-right: 9%;
-    
-    
+    margin-right: 9%; 
 }
-
 .alert-paragraph2{
     font-size: clamp(0.5rem, 3vw, 3rem);
     margin-top: 4%;
@@ -224,21 +162,15 @@ body {
     margin-left: 9%;
     margin-right: 9%;
     color: #47474D; 
-    
 }
-
-.background-alert{
-    
+.background-alert{ 
     width: 100%;
     height: 100%;
     position: fixed;
     top: 0;
     background: rgba(0.6, 0.6, 0.6, 0.6);
     display: none;
-    
 }
-
-
 .alert-box{
     box-shadow: 4px 4px 8px rgba(0, 1, 1, 1);
     background: #FFFFFF;
@@ -251,38 +183,25 @@ body {
     align-items: center;
     text-align: center;
     border-radius: 1.5vh;
-    
 }
-
-
 .logodiv{
     position: sticky; top: 0;
     background: #120179;
     padding: 2%;
     box-shadow: 5px 5px 5px rgba(0.2, 0.2, 0.2, 0.2);
     top: 0%;
-    
-    
 }
-
 .flex-logodiv{
     display: flex;
     justify-content: space-between;
-    
 }
-
-
 .logo2{
     font-weight: bold;
     color: white;
     font-size: clamp(0.6rem, 3vw, 3rem);
     font-family: 'Itin', cursive;
-     
-
 }
-
 .nav-btn{
-   
     text-decoration: none;
     margin-left: 6%;
     border: 0.2vh solid #00ECFF;
@@ -297,15 +216,12 @@ body {
     font-size: clamp(1.2rem, 3vw, 3rem);
     box-shadow: 7px 7px 7px rgba(0.3, 0.3, 0.3, 0.3);
 }
-
 .li{
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-
 .content-btn{
-    
     font-size: clamp(1rem, 3vw, 3rem);
     font-family: none;
   text-decoration: none;
@@ -315,13 +231,9 @@ body {
   width: 80%;
   display: flex;
   border-top: 1.2px solid #C7C7C7;
-  border-bottom: 1.2px solid #C7C7C7;
-    
+  border-bottom: 1.2px solid #C7C7C7;  
 }
-
-
-.content-btn2{
-    
+.content-btn2{   
     font-size: clamp(1rem, 3vw, 3rem);
     font-family: none;
   text-decoration: none;
@@ -331,33 +243,18 @@ body {
   width: 80%;
   display: flex;
   border-top: 2.2px solid #C7C7C7;
-  border-bottom: 1.2px solid #C7C7C7;
-    
+  border-bottom: 1.2px solid #C7C7C7;   
 }
-
-.content-btn3:hover{
-    
+.content-btn3:hover{ 
     background: #0F09B1;
-    
 }
-
 .content-btn:hover{
-    
-    background: #0F09B1;
-    
+   background: #0F09B1; 
 }
-
-.content-btn2:hover{
-    
-    background: #0F09B1;
-    
+.content-btn2:hover{ 
+  background: #0F09B1;  
 }
-
-
-
-
-.content-btn3{
-    
+.content-btn3{  
     font-size: clamp(1rem, 3vw, 3rem);
     font-family: none;
   text-decoration: none;
@@ -367,12 +264,8 @@ body {
   width: 80%;
   display: flex;
   border-top: 1.2px solid #C7C7C7;
-  border-bottom: 2.2px solid #C7C7C7;
-    
+  border-bottom: 2.2px solid #C7C7C7; 
 }
-
-
-
 .download-image{
     width: 35%;
     margin-top: 4%;
@@ -380,35 +273,22 @@ body {
     margin-bottom: 4%;
     background: #FF0000;
     border-radius: 1vh;
-    box-shadow: 5px 5px 5px rgba(0.3, 0.3, 0.3, 0.3);
-    
-    
+    box-shadow: 5px 5px 5px rgba(0.3, 0.3, 0.3, 0.3);   
 }
-
-
-.download-image2{
-    
+.download-image2{ 
     width: 9%;
     padding: 2%;
     margin-top: 4%;
-    margin-bottom: 4%;
-    
-    
+    margin-bottom: 4%;   
 }
-
 .li3{
-    
     margin-left: 12%;
     margin-right: 9%;
     font-family: none;
     margin-top: 5%;
     margin-bottom: 3%;
 }
-
-
 .div{
-    
-
    display: none;
    position: fixed;
    width: 50%;
@@ -417,13 +297,9 @@ body {
    overflow-y: auto;
    background: #120179;
    padding: 2%;
-    box-shadow: 10px 10px 10px rgba(0.3, 0.3, 0.3, 0.3);
-   
-    
+    box-shadow: 10px 10px 10px rgba(0.3, 0.3, 0.3, 0.3);   
 }
-
 .hide-nav{
-    
     text-decoration: none;
     margin-top: 3%;
     margin-bottom: 4%;
@@ -437,12 +313,8 @@ body {
     cursor: pointer;
     color: white;
     font-weight: bold;
-    
-    
 }
-
 .next-page{
-
     text-align: center;
     font-size: clamp(1rem, 3vw, 3rem);
     display: flex;
@@ -452,8 +324,6 @@ body {
     margin-bottom: 5%;
     color: #FF0000;
 }
-
-
 .get-btn{
     display: flex;
     margin: auto;
@@ -473,14 +343,10 @@ body {
     
     
 }
-
 .get-btn:hover{
     color: #0023FF;
     background: #070D50;
 }
-
-
-
 .next-page-btn{
     
     margin-left: 2%;
