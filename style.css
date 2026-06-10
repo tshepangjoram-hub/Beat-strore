@@ -1578,7 +1578,7 @@ body {
 
   
   .play-beat{
-    font-size: 58%;
+    font-size: 53%;
     box-shadow: 7px 7px 7px rgba(0.2, 0.2, 0.2, 0.2);
     display: flex;
     width: 30%;
@@ -1674,12 +1674,12 @@ body {
 
 
 .content-btn3{
-    font-size: 58%;
+    font-size: 50%;
     font-family: none;
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 8%;
+  padding: 5%;
   width: 80%;
   display: flex;
   border-top: 1.2px solid #C7C7C7;
@@ -1688,12 +1688,12 @@ body {
 }
     .content-btn2{
     
-    font-size: 58%;
+    font-size: 50%;
     font-family: none;
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 8%;
+  padding: 5%;
   width: 80%;
   display: flex;
   border-top: 2.2px solid #C7C7C7;
@@ -1702,12 +1702,12 @@ body {
 }
     
     .content-btn{
-    font-size: 58%;
+    font-size: 50%;
     font-family: none;
     text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 8%;
+  padding: 5%;
   width: 80%;
   display: flex;
   border-top: 1.2px solid #C7C7C7;
