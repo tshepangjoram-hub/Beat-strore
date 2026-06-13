@@ -2,20 +2,19 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-    font-size: 15pt;
-    font-size: clamp(1.1rem, 3.4vw, 3.4rem);
-    background: #FFFFFF;
-  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
- line-height: 1.5;
+    font-size: clamp(1.5rem, 4vw, 4rem);
+    background: white;
+    line-height: 1.8;
+    font-family: none;
+    
 }
-.nav-btn:hover{
-    color: #6AF200;
-    border: 0.2vh solid #6AF200;
-}
+
+
 .logo{
     color: white;
-    font-size: clamp(1.5rem, 4vw, 4rem);
+    font-size: clamp(1.7rem, 5vw, 5rem);
     font-weight: bold;
     font-weight: bold;
     font-family: 'Itin', cursive;
@@ -23,17 +22,21 @@ body {
     margin-left: 4%;
     text-decoration: none;
     cursor: none;
+
 }
-.heading{  
-    font-size: clamp(1.5rem, 4.5vw, 4.5rem);
+
+.heading{
+    font-size: clamp(1.7rem, 4vw, 4rem);
     text-align: center;
     margin-top: 6%;
     margin-bottom: 5%;
     text-align: center;
+    
 }
+
 .heading3{
     box-shadow: 20px 20px 20px rgba(0.1, 0.1, 0.1, 0.1);
-    font-size: clamp(1.6rem, 5vw, 5rem);
+    font-size: clamp(4rem, 8vw, 8rem);
     color: red;
     text-align: center;
     margin-top: 6%;
@@ -45,15 +48,20 @@ body {
     padding: 2%;
     
 }
+
 .heading4{
-    font-size: clamp(1.5rem, 5vw, 5rem);
+    
+    font-size: clamp(2rem, 6vw, 6rem);
     text-align: center;
     margin-top: 6%;
     margin-bottom: 5%;
     text-align: center;
     color: red;
 } 
+
+
 .heading2{
+    
     font-size: clamp(1.5rem, 5vw, 5rem);
     text-align: center;
     margin-left: 5%;
@@ -63,16 +71,22 @@ body {
     text-align: center;
     
 }
+
+
 .form-div{
+    
     margin-top: 5%;
-    margin-bottom: 5%; 
+    margin-bottom: 5%;
+    
 }
+
+
 .contact-info{
     display: flex;
     margin: auto;
-    width: 60%;
+    width: 70%;
     text-decoration: none;
-    padding: 5%;
+    padding: 6%;
     margin-top: 3%;
     margin-bottom: 3%;
     border-radius: 1vh;
@@ -81,36 +95,51 @@ body {
     outline: none;
     
 }
-.contact-info:hover{ 
-    border: 0.2vh solid #00FF2E;  
+
+.contact-info:hover{
+    
+    border: 0.2vh solid #00FF2E;
+    
 }
+
+
 .textarea{
     display: flex;
     margin: auto;
     width: 60%;
     height: 12vh;
     text-decoration: none;
-    padding: 8%;
+    padding: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 2vh;
     outline: none;
     border: 0.2vh solid #D8D8D8;
     font-size: clamp(1rem, 4vw, 4rem);
+    
+    
 }
+
 .textarea:hover{
+    
     border: 0.2vh solid #00FF2E;
+    
 }
+
 .submit:hover{
+    
     color: #074609;
     background: linear-gradient(10deg, #34FF00, #0FFF16, #5AC90B);
+    
 }
+
+
 .submit{
    text-decoration: none;
     margin-top: 3%;
     margin-bottom: 6%;
     margin-left: 2%;
-    font-size: clamp(1rem, 3vw, 3rem);
+    font-size: clamp(1rem, 4vw, 4rem);
     background: linear-gradient(10deg, #34FF00, #0D9F11, #5AC90B);
     padding: 4%;
     border-radius: 1vh;
@@ -121,14 +150,17 @@ body {
     justify-content: center;
     cursor: pointer;
     color: white;
-    font-weight: bold;
+    font-weight: bold;    
+    
 }
+
+
 .ok-btn{
     text-decoration: none;
     margin-top: 2%;
     margin-bottom: 6%;
     margin-left: 2%;
-    font-size: clamp(1rem, 3vw, 3rem);
+    font-size: clamp(1rem, 4vw, 4rem);
     background: #02EC59;
     padding: 4%;
     border-radius: 1vh;
@@ -139,31 +171,46 @@ body {
     justify-content: center;
     cursor: pointer;
     color: #000;
-    font-weight: bold;
+    font-weight: bold;  
+    
 }
+
+
+
 .link{
+    
     text-decoration: none;
     color: #142BBF;
     border-bottom: 0.1vh solid #142BBF;
+
+    
 }
+
 .link:hover{
+    
     color: #1C0D6A;
+    
+    
 }
+
+
 .alert-paragraph{
-    font-size: clamp(1rem, 3vw, 3rem);
+    font-size: clamp(1rem, 3.5vw, 3.5rem);
     font-family: none;
     margin-left: 9%;
-    margin-right: 9%; 
+    margin-right: 9%;
 }
+
 .alert-paragraph2{
-    font-size: clamp(0.5rem, 3vw, 3rem);
+    font-size: clamp(0.8rem, 2vw, 2rem);
     margin-top: 4%;
     font-family: none;
     margin-left: 9%;
     margin-right: 9%;
     color: #47474D; 
+    
 }
-.background-alert{ 
+.background-alert{
     width: 100%;
     height: 100%;
     position: fixed;
@@ -175,7 +222,7 @@ body {
     box-shadow: 4px 4px 8px rgba(0, 1, 1, 1);
     background: #FFFFFF;
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 10%;
     right: 10%;
     padding: 3%;
@@ -186,102 +233,133 @@ body {
 }
 .logodiv{
     position: sticky; top: 0;
-    background: #120179;
-    padding: 2%;
-    box-shadow: 5px 5px 5px rgba(0.2, 0.2, 0.2, 0.2);
-    top: 0%;
+    padding: 1.5%;
+    box-shadow: 5px 5px 5px rgba(0.1, 0.1, 0.1, 0.1);
+    background: #020E95;
 }
+
 .flex-logodiv{
     display: flex;
     justify-content: space-between;
+    
 }
+
+
 .logo2{
     font-weight: bold;
     color: white;
-    font-size: clamp(0.6rem, 3vw, 3rem);
+    font-size: clamp(0.6rem, 3.6vw, 3.6rem);
     font-family: 'Itin', cursive;
+     
+
 }
+
 .nav-btn{
     text-decoration: none;
     margin-left: 6%;
-    border: 0.2vh solid #00ECFF;
-    color: #00F7FF;
-    padding: 2.5%;
+    color: white;
     background: none;
     font-weight: bold;
     margin-right: 5%;
-    border-radius: 1.2vh;
-    width: 24%;
+    border: 0.2vh solid #FFFFFFE6;
+    border-radius: 1vh;
+    width: 23%;
     cursor: pointer;
-    font-size: clamp(1.2rem, 3vw, 3rem);
-    box-shadow: 7px 7px 7px rgba(0.3, 0.3, 0.3, 0.3);
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    padding: 0;
 }
+
 .li{
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
+
 .content-btn{
-    font-size: clamp(1rem, 3vw, 3rem);
+    
+    font-size: clamp(1rem, 4vw, 4rem);
     font-family: none;
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 8%;
-  width: 80%;
+  padding: 6%;
+  width: 88%;
   display: flex;
   border-top: 1.2px solid #C7C7C7;
-  border-bottom: 1.2px solid #C7C7C7;  
+  border-bottom: 1.2px solid #C7C7C7;
+    
 }
-.content-btn2{   
-    font-size: clamp(1rem, 3vw, 3rem);
+
+
+.content-btn2{
+    
+    font-size: clamp(1rem, 4vw, 4rem);
     font-family: none;
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 8%;
-  width: 80%;
+  padding: 6%;
+  width: 88%;
   display: flex;
   border-top: 2.2px solid #C7C7C7;
-  border-bottom: 1.2px solid #C7C7C7;   
+  border-bottom: 1.2px solid #C7C7C7;
+    
 }
-.content-btn3:hover{ 
+
+.content-btn3:hover{
+    
     background: #0F09B1;
+    
 }
+
 .content-btn:hover{
-   background: #0F09B1; 
+    
+    background: #0F09B1;
+    
 }
-.content-btn2:hover{ 
-  background: #0F09B1;  
+
+.content-btn2:hover{
+    
+    background: #0F09B1;
+    
 }
-.content-btn3{  
-    font-size: clamp(1rem, 3vw, 3rem);
+
+
+
+
+.content-btn3{
+    
+    font-size: clamp(1rem, 4vw, 4rem);
     font-family: none;
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 8%;
-  width: 80%;
+  padding: 6%;
+  width: 88%;
   display: flex;
   border-top: 1.2px solid #C7C7C7;
-  border-bottom: 2.2px solid #C7C7C7; 
+  border-bottom: 2.2px solid #C7C7C7;
+    
 }
+
 .download-image{
-    width: 35%;
-    margin-top: 4%;
-    padding: 5%;
+    background: none;
+    margin-left: 15%;
     margin-bottom: 4%;
-    background: #FF0000;
-    border-radius: 1vh;
-    box-shadow: 5px 5px 5px rgba(0.3, 0.3, 0.3, 0.3);   
+    font-size: clamp(3rem, 5vw, 5rem);
+    border: none;
+    margin-bottom: 4%;
+    color: red;
+    font-weight: bold;
 }
-.download-image2{ 
+.download-image2{
     width: 9%;
     padding: 2%;
     margin-top: 4%;
-    margin-bottom: 4%;   
+    margin-bottom: 4%;
 }
 .li3{
+    font-size: clamp(1rem, 4vw, 4rem);
     margin-left: 12%;
     margin-right: 9%;
     font-family: none;
@@ -290,22 +368,23 @@ body {
 }
 .div{
    display: none;
-   position: fixed;
+   position: absolute;
    width: 50%;
    left: 0;
-   height: 100%;
+   height: 100vh;
    overflow-y: auto;
-   background: #120179;
+   background: #020E95;
    padding: 2%;
-    box-shadow: 10px 10px 10px rgba(0.3, 0.3, 0.3, 0.3);   
+    box-shadow: 10px 10px 10px rgba(0.3, 0.3, 0.3, 0.3);
 }
+
 .hide-nav{
     text-decoration: none;
     margin-top: 3%;
     margin-bottom: 4%;
     padding: 3%;
     left: 0;
-    font-size: clamp(1rem, 3vw, 3rem);
+    font-size: clamp(1rem, 4vw, 4rem);
     border: none;
     border-radius: 1.2vh;
     background: none;
@@ -316,7 +395,7 @@ body {
 }
 .next-page{
     text-align: center;
-    font-size: clamp(1rem, 3vw, 3rem);
+    font-size: clamp(1rem, 4vw, 4rem);
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -324,31 +403,33 @@ body {
     margin-bottom: 5%;
     color: #FF0000;
 }
+
+
 .get-btn{
     display: flex;
     margin: auto;
     justify-content: center;
     margin-top: 5%;
-    margin-bottom: 5%;
-    text-decoration: none;
-    font-size: clamp(1.1rem, 4vw, 4rem);
-    background: #0D1891;
-    width: 55%;
-    border-radius: 1vh;
+    margin-bottom: 3%;
     padding: 3%;
+    text-decoration: none;
+    font-size: clamp(1rem, 4vw, 4rem);
+    background: linear-gradient(10deg,  #007AFFD1, #3400FFF0, #0008FFC7);
+    width: 50%;
     color: white;
     font-weight: bold;
-    font-family: none;
-    box-shadow: 10px 10px 10px rgba(0.3, 0.3, 0.3, 0.3);
-    
+    border-radius: 1vh; 
     
 }
+
 .get-btn:hover{
     color: #0023FF;
     background: #070D50;
 }
+
+
+
 .next-page-btn{
-    
     margin-left: 2%;
     margin-top: 4%;
     text-decoration: none;
@@ -358,11 +439,10 @@ body {
     color: #000;
     font-weight: bold;
     text-align: center;
-    padding: 3%;
+    padding: 2%;
     border-radius: 1.5vh;
     width: 35%;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
-    
 }
 
 .next-page-btn:hover{
@@ -398,12 +478,12 @@ body {
     margin-top: 4%;
     text-decoration: none;
     border: 0.1rem solid #000DFF;
-    font-size: clamp(1rem, 3vw, 3rem);
+    font-size: clamp(1rem, 4vw, 4rem);
     font-family: none;
     color: #000;
     font-weight: bold;
     text-align: center;
-    padding: 3%;
+    padding: 2%;
     border-radius: 1.5vh;
     width: 35%;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
@@ -417,12 +497,12 @@ body {
     margin-top: 4%;
     text-decoration: none;
     border: 0.1rem solid #FF0000;
-    font-size: clamp(1rem, 3vw, 3rem);
+    font-size: clamp(1rem, 4vw, 4rem);
     font-family: none;
     color: #000;
     font-weight: bold;
     text-align: center;
-    padding: 3%;
+    padding: 2%;
     border-radius: 1.5vh;
     width: 35%;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
@@ -434,12 +514,12 @@ body {
     margin-top: 4%;
     text-decoration: none;
     border: 0.1rem solid #FF0000;
-    font-size: clamp(1rem, 3vw, 3rem);
+    font-size: clamp(1rem, 4vw, 4rem);
     font-family: none;
     color: #000;
     font-weight: bold;
     text-align: center;
-    padding: 3%;
+    padding: 2%;
     border-radius: 1.5vh;
     width: 35%;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
@@ -453,16 +533,16 @@ body {
 }
 
 .about-paragraph{
-    font-size: clamp(1rem, 3vw, 3rem);
+    font-size: clamp(0.8rem, 3.5vw, 3.5rem);
     margin-top: 2%;
     margin-bottom: 2%;
     color: #3E3E3E;
-    margin-left: 3.5%;
+    margin-left: 4%;
     font-family: none;
 }
 
 .about-paragraph2{
-    font-size: clamp(1rem, 3vw, 3rem);
+    font-size: clamp(1rem, 4vw, 4rem);
     margin-top: 6%;
     margin-bottom: 2%;
     color: #09F9EC;
@@ -472,15 +552,13 @@ body {
 
 
 .download-btn{
-    
-    font-size: clamp(1rem, 3vw, 3rem);
+    font-size: clamp(1rem, 4vw, 4rem);
     display: flex;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
     width: 70%;
     margin: auto;
     font-weight: bold;
     color: white;
-    margin-top: 3%;
     border-radius: 0.8vh;
     margin-bottom: 2%;
     text-align: center;
@@ -488,27 +566,21 @@ body {
     text-decoration: none;
     font-family: none;
     background: #062DC4;
-    padding: 5%;
-
-    
-    
+    padding: 3%;
 }
-
 .download-btn:hover{
     background: #08195C;
     
 }
 
 .download-btn2{
-    
-    font-size: clamp(1rem, 3vw, 3rem);
+    font-size: clamp(1rem, 4vw, 4rem);
     display: flex;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
     width: 70%;
     margin: auto;
     font-weight: bold;
     color: white;
-    margin-top: 3%;
     border-radius: 0.8vh;
     margin-bottom: 2%;
     text-align: center;
@@ -516,15 +588,9 @@ body {
     text-decoration: none;
     font-family: none;
     background: linear-gradient(10deg, #34FF00, #27AE04, #5AC90B);
-    padding: 5%;
-
-    
-    
+    padding: 3%;
 }
-
-
 .download-btn2:hover{
-    
     background: linear-gradient(10deg, #4BAE04, #337206, #1F4007);
     color: #70FF0A;
     
@@ -543,33 +609,26 @@ body {
 .footer-div{
     
     background: #0E0430;
-    padding: 10%;
+    padding: 6%;
     
 }
-
 
 .image-icon{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-
 .image-1{
     display: flex;
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
     margin-left: 30%;
-
 }
-
 .image-2{
-    width: 50%;
-    height: 53%;
+    width: 40%;
+    height: 43%;
     margin-left: 40%;
 }
-
-
 
 .button2{
    box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
@@ -580,20 +639,15 @@ body {
     width: 75%;
     justify-content: center;
     background: linear-gradient(10deg, #34FF00, #27AE04, #5AC90B);
-    font-size: clamp(1.1rem, 3.4vw, 3.4rem);
+    font-size: clamp(1.1rem, 4.1vw, 4.1rem);
     font-weight: bold;
     font-family: none;
     color: white;
     border-radius: 1vh;
 }
-
-
 .button:hover{
-    
     color: #55FF00;
-    
 }
-
 .button{
    box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
     text-decoration: none;
@@ -605,7 +659,7 @@ body {
     width: 40%;
     justify-content: center;
     background: linear-gradient(10deg, #34FF00, #27AE04, #5AC90B);
-    font-size: clamp(1.1rem, 3.4vw, 3.4rem);
+    font-size: clamp(1.1rem, 4.1vw, 4.1rem);
     font-weight: bold;
     font-family: none;
     color: white;
@@ -620,10 +674,10 @@ body {
     font-family: none;
     display: flex;
     margin: auto;
-    font-size: clamp(1.1rem, 3.3vw, 3.3rem); 
-    padding: 3%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    font-size: clamp(1rem, 4vw, 4rem); 
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-weight: bold;
 }
 
@@ -633,7 +687,7 @@ body {
     color: white;
     text-align: center;
     font-family: none;
-    font-size: clamp(1.2rem, 3vw, 3rem); 
+    font-size: clamp(1.2rem, 4vw, 4rem); 
 }
 
 
@@ -645,10 +699,10 @@ body {
     font-family: none;
     display: flex;
     margin: auto;
-    font-size: clamp(1.1rem, 3.3vw, 3.3rem); 
-    padding: 3%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    font-size: clamp(1rem, 4vw, 4rem); 
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-weight: bold;
 
 }
@@ -657,25 +711,27 @@ body {
 
 .paragraph{
     
-    font-size: clamp(1.3rem, 3.3vw, 3.3rem); 
-    margin-left: 7%;
-    margin-right: 7%;
+    font-size: clamp(1rem, 3.5vw, 3.5rem); 
+    text-align: center;
+    margin-left: 9%;
+    margin-right: 9%;
     
 }
 
 .titleparagraph{
-    font-size: clamp(1.5rem, 3.5vw, 3.5rem);
+    font-size: clamp(1.6rem, 4vw, 4rem);
+    text-align: center;
     text-align: center;
     margin-top: 3%;
-    color: #0D014D;
+    color: #06003EE6;
     margin-bottom: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
     font-weight: bold;
 }
 
 .titleparagraph2{
-    font-size: clamp(1.5rem, 3.5vw, 3.5rem);
+    font-size: clamp(1.4rem, 4vw, 4rem);
     text-align: center;
     margin-top: 3%;
     color: #0F0E9E;
@@ -731,46 +787,33 @@ body {
 
 .content-div2{
     text-align: center;
-    margin-left: 6%;
-    margin-right: 6%;
-    border: 0.1vh solid #CECECE;
-    margin-top: 3%;
     margin-bottom: 3%;
     padding: 4%;
-    color: white;
     text-align: center;
-    margin-top: 3%;
-    color: black;
     margin-bottom: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 1vh;
-    font-weight: bold;
-    box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
 }    
 
 .instrumental-div{
-    
-    border: 0.1vh solid #DBDBDB;
-    margin-top: 3.8%;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-bottom: 3.8%;
-    border-radius: 1vh;
-    padding: 3%;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right:  4%;
+    border-radius: 2.3vh;
+    border: 0.2vh solid #D5D5D5E6;
+    margin-bottom: 3%;
+    padding: 2%;
     aspect-ratio: 16 / 9;
-    box-shadow: 0.3vh 0.3vh 0.3vh 0.3vh rgba(0.1, 0.1, 0.1, 0.1);
 }
 
 .paragraphpolicy{
-   font-size: clamp(1.2rem, 3vw, 3rem);
+   font-size: clamp(1rem, 4vw, 4rem);
    font-family: none;
    margin-left: 7%;
    margin-right: 9%;
+   text-align: center;
 }
 
 .paragraph404{
-   font-size: clamp(1.5rem, 3.8vw, 3.8rem);
+   font-size: clamp(1.5rem, 5vw, 5rem);
    font-family: none;
    color: #4C4C51;
    margin-left: 10%;
@@ -780,7 +823,7 @@ body {
 }
 
 .content2{
-    font-size: clamp(1.5rem, 3vw, 3rem);
+    font-size: clamp(1rem, 4vw, 4rem);
     font-family: none;
     text-decoration: none;
     color: #0731A6;
@@ -789,8 +832,8 @@ body {
 
 .li2{
     
-    margin-top: 6%;
-    margin-bottom: 6%;
+    margin-top: 4%;
+    margin-bottom: 4%;
     margin-left: 10%;
     margin-right: 10%;
     
@@ -799,10 +842,13 @@ body {
 
 .paragraphpolicy2{
    
-   font-size: clamp(1.2rem, 3.8vw, 3.8rem);
+   font-size: clamp(0.9rem, 3vw, 3rem);
    font-family: none;
+   text-align: center;
    margin-left: 6%;
    margin-right: 9%;
+   margin-top: 2%;
+   margin-bottom: 1%;
    color: #363636;
     
 }
@@ -810,10 +856,10 @@ body {
 .title-beat{
     margin-right: 30%;
     margin-left: 2%;
-    margin-bottom: 5%;
-    font-size: clamp(1.5rem, 3.8vw, 3.8rem);
-    color: #1302BA;
-    
+    margin-bottom: 3%;
+    font-size: clamp(1rem, 3vw, 3rem);
+    font-weight: bold;
+    color: blue;
     
 }
 
@@ -821,67 +867,54 @@ body {
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-bottom: 3%;
-    width: 95%;
-    height: 100%;
-
+    margin-bottom: 2%;
+    width: 90%;
+    height: 90%;
 }
-
 .views{
-    
-    font-size: clamp(1rem, 3.5vw, 3.5rem);
+    font-size: clamp(0.8rem, 3.8vw, 3.8rem);
     margin-left: 3%;
     color: #0008A2;
-    border: 1.5px solid #0029FF;
-    padding: 2%;
-    border-radius: 1vh;
+    border: 0.2vh solid #0029FF;
+    padding: 1.8%;
+    border-radius: 2vh;
     font-weight: bold;
     font-family: none;
     margin-bottom: 2%;
-
-    
 }
-
-
 .likes{
-    
-    font-size: clamp(1rem, 3.5vw, 3.5rem);
+    font-size: clamp(0.8rem, 3.8vw, 3.8rem);
     margin-left: 3%;
     color: #0008A2;
-    border: 1.5px solid #0029FF;
-    padding: 2%;
-    border-radius: 1vh;
+    border: 0.2vh solid #0029FF;
+    padding: 1.8%;
+    border-radius: 2vh;
     font-weight: bold;
     font-family: none;
     margin-bottom: 2%;
-    
 }
-
 .about-instrumental{
     margin-top: 3%;
     display: flex;
     padding: 3%;
-    
-    
 }
-
 .play-beat{
-    font-size: clamp(1rem, 3.6vw, 3.6rem);
+    font-size: clamp(1rem, 3.5vw, 3.5rem);
     box-shadow: 7px 7px 7px rgba(0.2, 0.2, 0.2, 0.2);
     display: flex;
-    width: 43%;
+    width: 40%;
     color: white;
     border-radius: 0.8vh;
     font-weight: bold;
-    margin-top: 7%;
-    margin-bottom: 6%;
+    margin-top: 5%;
+    margin-bottom: 3%;
     margin-left: 4%;
     text-align: center;
     justify-content: center;
     text-decoration: none;
     font-family: none;
-    background: #1223DF;
-    padding: 4%;
+    background: linear-gradient(10deg, #1307E6D1, #1E00FFD1, #1F12FAD1);
+    padding: 2%;
     
 }
 
@@ -894,58 +927,42 @@ body {
 
 /* COPY THIS CODE ON YOUR FINAL WEBSITES  */
   
-  @media (min-width: 1200px) {
+  @media (min-width: 992px) {
     
     .about-paragraph2{
-    font-size: 53%;
+    font-size: 55%;
     margin-top: 6%;
     margin-bottom: 2%;
     color: #09F9EC;
     margin-left: 3.5%;
     font-family: none;
 }
-    
-    
-    .read-btn{
-    font-size: 54%;
+.button2{
+    box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
+     text-decoration: none;
+     display: flex;
+     margin: auto;
+     padding: 3%;
+     width: 55%;
+     justify-content: center;
+     background: linear-gradient(10deg, #34FF00, #27AE04, #5AC90B);
+     font-size: 1.3rem;
+     font-weight: bold;
+     font-family: none;
+     color: white;
+     border-radius: 1vh;
+ }
+
+
+ .contact-info{
     display: flex;
     margin: auto;
-    text-decoration: none;
-    background: #0816AE;
-    color: white;
-    padding: 4%;
     width: 40%;
-    justify-content: center;
-    font-family: none;
-    margin-top: 10%;
-    border-radius: 1vh;
-    box-shadow: 10px 10px 10px rgba(0.5, 0.5, 0.5, 0.5);
-}
-    
-    .blog-div{
-    
-    box-shadow: 10px 10px 10px rgba(0.4, 0.4, 0.4, 0.4);
-    background: #070D4E;
-    color: white;
-    margin-left: 5%;
-    padding: 8%;
-    width: 50%;
-    margin-left: 18%;
-    margin-right: 18%;
-    height: 50%;
-    border-radius: 1vh;
-    margin-right: 5%;
-    margin-top: 8%;
-}
-    .contact-info{
-    display: flex;
-    margin: auto;
-    width: 50%;
     text-decoration: none;
-    padding: 4%;
+    padding: 3%;
     border-radius: 1vh;
     border: 0.2vh solid #D8D8D8;
-    font-size: 65%;
+    font-size: 1.5rem;
     outline: none;
     
 }
@@ -963,14 +980,11 @@ body {
     width: 50%;
     height: 12vh;
     text-decoration: none;
-    padding: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    padding: 7%;
     border-radius: 2vh;
     outline: none;
     border: 0.2vh solid #D8D8D8;
-    font-size: 65%;
-    
+    font-size: 1.5rem;
     
 }
 
@@ -991,9 +1005,9 @@ body {
 .submit{
    text-decoration: none;
     margin-top: 3%;
-    margin-bottom: 6%;
+    margin-bottom: 5%;
     margin-left: 2%;
-    font-size: 57%;
+    font-size: 1.4rem;
     background: linear-gradient(10deg, #34FF00, #0D9F11, #5AC90B);
     padding: 3%;
     border-radius: 1vh;
@@ -1007,12 +1021,53 @@ body {
     font-weight: bold;    
     
 }
- 
-      
+
+
+    
+    .read-btn{
+    font-size: 1.5rem;
+    display: flex;
+    margin: auto;
+    text-decoration: none;
+    background: #0816AE;
+    color: white;
+    padding: 3%;
+    width: 40%;
+    justify-content: center;
+    font-family: none;
+    margin-top: 6%;
+    border-radius: 1vh;
+    box-shadow: 10px 10px 10px rgba(0.5, 0.5, 0.5, 0.5);
+}
+    
+    .blog-div{
+    
+    box-shadow: 10px 10px 10px rgba(0.4, 0.4, 0.4, 0.4);
+    background: #070D4E;
+    color: white;
+    margin-left: 5%;
+    padding: 4%;
+    width: 40%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 50%;
+    border-radius: 1vh;
+    margin-right: 5%;
+    margin-top: 8%;
+}
+
+
+.contact-info:hover{
+    
+    border: 0.2vh solid #00FF2E;
+    
+}
+
+
       
     .button:hover{
     
-    color: #55FF00;
+    color: #0008A2;
     
 }
 
@@ -1020,83 +1075,60 @@ body {
    box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
     text-decoration: none;
     display: flex;
+    margin: auto;
     margin-left: 8%;
     margin-top: 6%;
+    justify-content: center;
     margin-bottom: 6%;
-    padding: 3%;
-    width: 25%;
+    padding: 2%;
+    width: 15%;
     justify-content: center;
     background: linear-gradient(10deg, #34FF00, #27AE04, #5AC90B);
-    font-size: 54%;
+    font-size: 1.2rem;
     font-weight: bold;
     font-family: none;
     color: white;
     border-radius: 1vh;
 }
-
-   .footer-btn{
+.footer-btn{
     justify-content: center;
     text-decoration: none;
     color: #02FF65;
     font-family: none;
     display: flex;
     margin: auto;
-    font-size: 55%;
+    font-size: 1.5rem;
     padding: 2%;
-    margin-top: 8%;
-    margin-bottom: 8%;
-    font-weight: bold;
-
-   }   
-   
-   .footer-btn{
-    justify-content: center;
-    text-decoration: none;
-    color: #02FF65;
-    font-family: none;
-    display: flex;
-    margin: auto;
-    font-size: 55%;
-    padding: 2%;
-    margin-top: 8%;
-    margin-bottom: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-weight: bold;
 }
-
-
 .footer-paragraph{
     margin-top: 9%;
     color: white;
     text-align: center;
     font-family: none;
-    font-size: 55%;
+    font-size: 1.5rem;
 }
-
-
 .flex-footer-btn{
-    
     justify-content: center;
     text-decoration: none;
     color: #02FF65;
     font-family: none;
     display: flex;
     margin: auto;
-    font-size: 55%;
-    padding: 3%;
-    margin-top: 8%;
-    margin-bottom: 8%;
+    font-size: 1.5rem;
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-weight: bold;
-
 }
-
-
-  
   .ok-btn{
     text-decoration: none;
     margin-top: 2%;
     margin-bottom: 6%;
     margin-left: 2%;
-    font-size: 53%;
+    font-size: 55%;
     background: #02EC59;
     padding: 4%;
     border-radius: 1vh;
@@ -1121,7 +1153,7 @@ body {
     
 }
   .alert-paragraph{
-    font-size: 54%;
+    font-size: 58%;
     font-family: none;
     margin-left: 9%;
     margin-right: 9%;
@@ -1130,7 +1162,7 @@ body {
 }
 
 .alert-paragraph2{
-    font-size: 54%;
+    font-size: 50%;
     margin-top: 4%;
     font-family: none;
     margin-left: 9%;
@@ -1144,10 +1176,10 @@ body {
     box-shadow: 4px 4px 8px rgba(0, 1, 1, 1);
     background: #FFFFFF;
     position: absolute;
-    top: 15%;
-    left: 20%;
-    right: 20%;
-    padding: 2%;
+    top: 5%;
+    left: 25%;
+    right: 25%;
+    padding: 3%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -1155,15 +1187,14 @@ body {
     
 }
   
-  .download-btn{
-    font-size: 57%;
+.download-btn{
+    font-size: 1.5rem;
     display: flex;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
-    width: 45%;
+    width: 40%;
     margin: auto;
     font-weight: bold;
     color: white;
-    margin-top: 3%;
     border-radius: 0.8vh;
     margin-bottom: 2%;
     text-align: center;
@@ -1171,10 +1202,7 @@ body {
     text-decoration: none;
     font-family: none;
     background: #062DC4;
-    padding: 3%;
-
-    
-    
+    padding: 2%;
 }
 
 .download-btn:hover{
@@ -1184,10 +1212,10 @@ body {
 
 .download-btn2{
     
-    font-size: 57%;
+    font-size: 1.5rem;
     display: flex;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
-    width: 50%;
+    width: 40%;
     margin: auto;
     font-weight: bold;
     color: white;
@@ -1199,7 +1227,7 @@ body {
     text-decoration: none;
     font-family: none;
     background: linear-gradient(10deg, #34FF00, #27AE04, #5AC90B);
-    padding: 3%;
+    padding: 2%;
 
     
     
@@ -1218,7 +1246,7 @@ body {
   .next-page{
 
     text-align: center;
-    font-size: 54%;
+    font-size: 1.8rem;
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -1230,7 +1258,7 @@ body {
   
   
   .content2{
-    font-size: 54%;
+    font-size: 70%;
     font-family: none;
     text-decoration: none;
     color: #0731A6;
@@ -1238,7 +1266,7 @@ body {
 }
   
     .li2{
-   font-size: 50%; 
+    font-size: 2rem;
     margin-top: 3%;
     margin-bottom: 3%;
     margin-left: 10%;
@@ -1247,18 +1275,9 @@ body {
     
 }
 
-    
-    .li3{
-    
-    margin-left: 13%;
-    margin-right: 13%;
-    font-family: none;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    font-size: 50%;
-}
+
     .heading{
-   font-size: 65%;
+   font-size: 2rem;
     text-align: center;
     margin-top: 6%;
     margin-bottom: 5%;
@@ -1268,7 +1287,7 @@ body {
 
 .heading3{
     box-shadow: 20px 20px 20px rgba(0.1, 0.1, 0.1, 0.1);
-    font-size: 62%;
+    font-size: 72%;
     color: red;
     text-align: center;
     margin-top: 6%;
@@ -1277,36 +1296,27 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
-    padding: 2%;
-    
+    padding: 2%; 
 }
-
 .heading4{
-    
-    font-size: 65%;
+    font-size: 75%;
     text-align: center;
     margin-top: 6%;
     margin-bottom: 5%;
     text-align: center;
     color: red;
 } 
-
-
 .heading2{
-    
-    font-size: 62%;
+    font-size: 72%;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 6%;
     margin-bottom: 5%;
     text-align: center;
-    
-}
-
-    
-    .paragraphpolicy{
-   font-size: 53%;
+}  
+  .paragraphpolicy{
+   font-size: 1.2rem;
    font-family: none;
    margin-left: 7%;
    margin-right: 9%;
@@ -1314,7 +1324,7 @@ body {
 }
 
 .paragraph404{
-   font-size: 55%;
+   font-size: 1.5rem;
    font-family: none;
    color: #4C4C51;
    margin-left: 10%;
@@ -1326,36 +1336,32 @@ body {
 
 .content-div{
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 3%;
     margin-bottom: 3%;
-    padding: 4%;
+    padding: 3%;
     border-radius: 1.5vh;
     border: 0.1vh solid #CECECE;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
-    
-}
-    
-   .next-page-btn{
-    
+}  
+.next-page-btn{
     margin-left: 2%;
     margin-top: 4%;
     text-decoration: none;
     border: 0.1rem solid #000DFF;
-    font-size: 55%;
+    font-size: 1.3rem;
     font-family: none;
     color: #000;
     font-weight: bold;
     text-align: center;
-    padding: 2.5%;
+    padding: 1%;
     border-radius: 1.5vh;
-    width: 22%;
+    width: 15%;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
-    
-}  
-      
-    .next-page-btn:hover{
+}
+
+.next-page-btn:hover{
    
     border: 0.1rem solid #091057;
     color: #2900FF;
@@ -1388,33 +1394,30 @@ body {
     margin-top: 4%;
     text-decoration: none;
     border: 0.1rem solid #000DFF;
-    font-size: 55%;
+    font-size: 1.3rem;
     font-family: none;
     color: #000;
     font-weight: bold;
     text-align: center;
-    padding: 2.5%;
+    padding: 1%;
     border-radius: 1.5vh;
-    width: 22%;
+    width: 15%;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
     
 }
-
-
-
 .next-page-btn4{
     
-    margin-top: 4%;
+  margin-top: 4%;
     text-decoration: none;
     border: 0.1rem solid #FF0000;
-    font-size: 55%;
+    font-size: 1.3rem;
     font-family: none;
     color: #000;
     font-weight: bold;
     text-align: center;
-    padding: 2.5%;
+    padding: 1%;
     border-radius: 1.5vh;
-    width: 22%;
+    width: 15%;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
     
 }
@@ -1424,18 +1427,19 @@ body {
     margin-top: 4%;
     text-decoration: none;
     border: 0.1rem solid #FF0000;
-    font-size: 55%;
+    font-size: 1.3rem;
     font-family: none;
     color: #000;
     font-weight: bold;
     text-align: center;
-    padding: 2.5%;
+    padding: 1%;
     border-radius: 1.5vh;
-    width: 22%;
+    width: 15%;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
     
 }
 
+ 
 .next-page-div{
     display: flex;
     margin: auto;
@@ -1443,85 +1447,83 @@ body {
 }
 
   
-  .play-beat{
-    font-size: 48%;
+.play-beat{
+    font-size: 1.2rem;
     box-shadow: 7px 7px 7px rgba(0.2, 0.2, 0.2, 0.2);
     display: flex;
     width: 30%;
     color: white;
-    border-radius: 0.8vh;
+    border-radius: 1vh;
     font-weight: bold;
-    margin-top: 7%;
-    margin-bottom: 6%;
+    margin-top: 5%;
+    margin-bottom: 3%;
     margin-left: 4%;
     text-align: center;
     justify-content: center;
     text-decoration: none;
     font-family: none;
-    background: #1223DF;
-    padding: 3%;
+    background: linear-gradient(10deg, #1307E6D1, #1E00FFD1, #1F12FAD1);
+    padding: 2%;
     
 }
   
   .about-paragraph{
-   font-size: 48%;
+   font-size: 1rem;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     color: #3E3E3E;
     margin-left: 3.5%;
     font-family: none;
   }
-   
-   
-   .likes{
-    font-size: 45%;
+  .views{
+    font-size: 1rem;
     margin-left: 3%;
     color: #0008A2;
-    border: 1.5px solid #0029FF;
-    padding: 2%;
-    border-radius: 1vh;
+    border: 0.2vh solid #0029FF;
+    padding: 1%;
+    border-radius: 2vh;
     font-weight: bold;
     font-family: none;
     margin-bottom: 2%;
-    
+}
+.likes{
+    font-size: 1rem;
+    margin-left: 3%;
+    color: #0008A2;
+    border: 0.2vh solid #0029FF;
+    padding: 1%;
+    border-radius: 2vh;
+    font-weight: bold;
+    font-family: none;
+    margin-bottom: 2%;
 }
    .about-instrumental{
     margin-top: 3%;
     display: flex;
-    padding: 2%;
-    
-    
-}
-   .views{
-    
-    font-size: 45%;
-    margin-left: 3%;
-    color: #0008A2;
-    border: 1.5px solid #0029FF;
-    padding: 2%;
-    border-radius: 1vh;
-    font-weight: bold;
-    font-family: none;
-    margin-bottom: 2%;
-
-    
-}
-   
-    
-    .title-beat{
-    margin-right: 30%;
+    padding: 2%;  
+}    
+.title-beat{
+    margin-right: 20%;
     margin-left: 5%;
     margin-bottom: 5%;
-    font-size: 50%;
-    color: #1302BA;
-    
-    
+    font-size: 1.2rem;
+    color: #1302BA;    
+}   
+.content-btn2{ 
+font-size: 1.5rem;
+ font-family: none;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 3%;
+  width: 88%;
+  display: flex;
+  border-top: 2.2px solid #C7C7C7;
+  border-bottom: 1.2px solid #C7C7C7;
 }
-    
-    .content-btn3:hover{
-    
-    background: #0F09B1;
-    
+
+.content-btn3:hover{ 
+    background: #0F09B1;  
 }
 
 .content-btn:hover{
@@ -1540,73 +1542,58 @@ body {
 
 
 .content-btn3{
-    font-size: 50%;
+    
+    font-size: 1.5rem;
     font-family: none;
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 5%;
-  width: 80%;
+  padding: 3%;
+  width: 88%;
   display: flex;
   border-top: 1.2px solid #C7C7C7;
   border-bottom: 2.2px solid #C7C7C7;
     
 }
-    .content-btn2{
+
+.content-btn{
     
-    font-size: 50%;
-    font-family: none;
+font-size: 1.5rem;
+font-family: none;
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 5%;
-  width: 80%;
-  display: flex;
-  border-top: 2.2px solid #C7C7C7;
-  border-bottom: 1.2px solid #C7C7C7;
-    
-}
-    
-    .content-btn{
-    font-size: 50%;
-    font-family: none;
-    text-decoration: none;
-  color: white;
-  font-weight: bold;
-  padding: 5%;
-  width: 80%;
+  padding: 3%;
+  width: 88%;
   display: flex;
   border-top: 1.2px solid #C7C7C7;
   border-bottom: 1.2px solid #C7C7C7;
     
 }
-   
-   .download-image{
-    width: 30%;
-    margin-top: 4%;
-    padding: 1.5%;
+
+.download-image{
+    background: none;
+    margin-left: 8%;
+    font-weight: bold;
     margin-bottom: 4%;
-    background: #FF0000;
-    border-radius: 0.5vh;
-    box-shadow: 5px 5px 5px rgba(0.3, 0.3, 0.3, 0.3);
-
-   }    
-    
-
-   
-   .div{
-   display: none;
-   position: fixed;
-   width: 40%;
-   left: 0;
-   height: 100%;
-   overflow-y: auto;
-   background: #120179;
-   padding: 1%;
-    box-shadow: 10px 10px 10px rgba(0.3, 0.3, 0.3, 0.3);
-    
+    font-size: 3.3rem;
+    border: none;
+    margin-bottom: 4%;
+    color: red;
 }
-   
+    
+.div{
+    display: none;
+    position: absolute;
+    width: 30%;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+    background: #020E95;
+    padding: 2%;
+     box-shadow: 10px 10px 10px rgba(0.3, 0.3, 0.3, 0.3);
+ }
+
     .youtube-video{
     display: flex;
     justify-content: center;
@@ -1616,101 +1603,107 @@ body {
     height: 90%;
 
 } 
+
+.li3{
+    font-size: 1.3rem;
+    margin-left: 12%;
+    margin-right: 9%;
+    font-family: none;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.footer-div{
     
-    .instrumental-div{
+    background: #0E0430;
+    padding: 4%;
+    
+}
+
+
+.instrumental-div{
     border: 0.1vh solid #DBDBDB;
     margin-top: 3.8%;
-    width: 50%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 45%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 3%;
     border-radius: 1vh;
     padding: 1%;
     aspect-ratio: 16 / 9;
-    box-shadow: 0.3vh 0.3vh 0.3vh 0.3vh rgba(0.1, 0.1, 0.1, 0.1);
-}
-    
-    .get-btn{
+} 
+.get-btn{
     display: flex;
     margin: auto;
     justify-content: center;
-    margin-top: 8%;
-    margin-bottom: 8%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding: 2%;
     text-decoration: none;
-    font-size: 50%;
-    background: #0D1891;
-    width: 37%;
-    border-radius: 1vh;
-    padding: 1%;
+    font-size: 1.3rem;
+    background: linear-gradient(10deg,  #007AFFD1, #3400FFF0, #0008FFC7);
+    width: 45%;
     color: white;
     font-weight: bold;
-    font-family: none;
-    box-shadow: 10px 10px 10px rgba(0.3, 0.3, 0.3, 0.3); 
-}   
-    .nav-btn{
+    border-radius: 1.3vh; 
+    
+}     
+.nav-btn{
     text-decoration: none;
     margin-left: 6%;
-    border: 0.1vh solid #00ECFF;
-    color: #00F7FF;
-    padding: 2%;
+    border: 0.2vh solid white;
+    color: white;
+    font-size: 1.3rem;
     background: none;
     font-weight: bold;
-    margin-right: 2%;
+    margin-right: 5%;
     border-radius: 1vh;
-    width: 15%;
+    width: 10%;
     cursor: pointer;
-    font-size: 62%;
-    box-shadow: 7px 7px 7px rgba(0.3, 0.3, 0.3, 0.3);
-}   
-    .logodiv{
+    padding: 0%;
+}
+      
+.logodiv{
     position: sticky; top: 0;
-    background: #120179;
-    box-shadow: 5px 5px 5px rgba(0.2, 0.2, 0.2, 0.2);
-    top: 0;
-    padding: 1.3%; 
-} 
-    .paragraphpolicy2{
-   
-   font-size: 50%;
+    padding: 0.5%;
+    box-shadow: 5px 5px 5px rgba(0.1, 0.1, 0.1, 0.1);
+    background: #020E95;
+}   
+.paragraphpolicy2{
+   font-size: 1.3rem;
    font-family: none;
    margin-left: 14%;
    margin-right: 9%;
    color: #363636;
-   line-height: 1.7; 
-}  
-    .logo{
-    color: white;
-    font-size: 60%;
+   line-height: 1.7;
+    
+}
+ 
+.logo2{
     font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Itin', cursive;
+}
+
+.logo{
+    color: white;
+    font-size: 1.8rem;
     font-weight: bold;
     font-family: 'Itin', cursive;
     margin-top: 1%;
     margin-left: 4%;
     text-decoration: none;
     cursor: none;
-
 }
-
-      .logo2{
-    font-weight: bold;
-    color: white;
-    font-size: 40%;
-    font-family: 'Itin', cursive;
-     
-
-      }
-   
    .paragraph{
-    
-    font-size: 50%;
+    font-size: 1.3rem;
     margin-left: 15%;
     margin-right: 15%;
     line-height: 1.7;
-    
 }
-   
   .titleparagraph{
-    font-size: 55%;
+     font-size: 2rem;
     text-align: center;
     margin-top: 2%;
     color: #0D014D;
@@ -1721,30 +1714,17 @@ body {
 }
     .content-div2{
     text-align: center;
-    border: 0.1vh solid #CECECE;
     justify-content: center;
-    margin-bottom: 3%;
-    padding: 3%;
+    padding: 2%;
     width: 50%;
     color: white;
     text-align: center;
     color: black;
     margin-bottom: 3%;
     margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 1vh;
-    font-weight: bold;
-    box-shadow: 15px 15px 15px rgba(0.2, 0.2, 0.2, 0.2);
+    margin-right: 20%;   
 }    
-    
-  
-
-    
-    
   }
-
 
 /*  THE CODE ENDS HERE */
 
-    
- 
