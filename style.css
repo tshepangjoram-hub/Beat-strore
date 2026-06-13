@@ -2160,7 +2160,7 @@ font-family: none;
     text-align: center;
     padding: 1%;
     border-radius: 1.5vh;
-    width: 15%;
+    width: 23%;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
 }
 
@@ -2204,7 +2204,7 @@ font-family: none;
     text-align: center;
     padding: 1%;
     border-radius: 1.5vh;
-    width: 15%;
+    width: 23%;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
     
 }
@@ -2220,7 +2220,7 @@ font-family: none;
     text-align: center;
     padding: 1%;
     border-radius: 1.5vh;
-    width: 15%;
+    width: 23%;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
     
 }
@@ -2237,7 +2237,7 @@ font-family: none;
     text-align: center;
     padding: 1%;
     border-radius: 1.5vh;
-    width: 15%;
+    width: 23%;
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
     
 }
@@ -2254,7 +2254,7 @@ font-family: none;
     font-size: 1.2rem;
     box-shadow: 7px 7px 7px rgba(0.2, 0.2, 0.2, 0.2);
     display: flex;
-    width: 30%;
+    width: 40%;
     color: white;
     border-radius: 1vh;
     font-weight: bold;
@@ -2341,9 +2341,6 @@ font-size: 1.5rem;
     
 }
 
-
-
-
 .content-btn3{
     
     font-size: 1.5rem;
@@ -2388,7 +2385,7 @@ font-family: none;
 .div{
     display: none;
     position: absolute;
-    width: 30%;
+    width: 37%;
     left: 0;
     height: 100vh;
     overflow-y: auto;
@@ -2427,8 +2424,8 @@ font-family: none;
 .instrumental-div{
     border: 0.1vh solid #DBDBDB;
     margin-top: 3.8%;
-    width: 45%;
-    margin-left: 25%;
+    width: 65%;
+    margin-left: 15%;
     margin-right: 25%;
     margin-bottom: 3%;
     border-radius: 1vh;
@@ -2445,7 +2442,7 @@ font-family: none;
     text-decoration: none;
     font-size: 1.3rem;
     background: linear-gradient(10deg,  #007AFFD1, #3400FFF0, #0008FFC7);
-    width: 45%;
+    width: 54%;
     color: white;
     font-weight: bold;
     border-radius: 1.3vh; 
@@ -2461,7 +2458,7 @@ font-family: none;
     font-weight: bold;
     margin-right: 5%;
     border-radius: 1vh;
-    width: 10%;
+    width: 15%;
     cursor: pointer;
     padding: 0%;
 }
@@ -2501,8 +2498,8 @@ font-family: none;
 }
    .paragraph{
     font-size: 1.3rem;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     line-height: 1.7;
 }
   .titleparagraph{
@@ -2530,5 +2527,3 @@ font-family: none;
   }
 
 /*  THE CODE ENDS HERE */
-
-
