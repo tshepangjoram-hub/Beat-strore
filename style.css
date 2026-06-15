@@ -927,7 +927,7 @@ body {
 
 /* COPY THIS CODE ON YOUR FINAL WEBSITES  */
   
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 992px) {
     
     .about-paragraph2{
     font-size: 55%;
@@ -1730,7 +1730,7 @@ font-family: none;
 
 /* COPY THIS CODE ON YOUR FINAL WEBSITES  */
   
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
     .about-paragraph2{
     font-size: 55%;
     margin-top: 6%;
