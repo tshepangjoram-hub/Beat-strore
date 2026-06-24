@@ -18,3 +18,20 @@ function closeAlert() {
   // Tab to edit
   document.getElementById("openAlert").style.display = "none";
 }
+
+// loader
+
+window.addEventListener("load", () =>{
+  
+  const loader = document.querySelector(".loader")
+  
+  loader.classList.add("loader-hidden")
+  
+  loader.addEventListener("transitionend", () =>{
+    
+    document.body.removeChild("loader");
+    
+  })
+  
+  
+})
