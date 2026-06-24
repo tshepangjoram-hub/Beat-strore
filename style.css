@@ -22,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #343642;
-    transition: opacity 0.75s, visibility 0.75s;
+    transition: opacity 0.55s, visibility 0.55s;
 }
 
 .loader-hidden{
@@ -35,10 +35,10 @@ body {
     content: "";
     width: 65px;
     height: 65px;
-    border: 10px solid white;
+    border: 8px solid white;
     border-top-color: #FF7400;
     border-radius: 100%;
-    animation: loading 0.75s ease infinite;
+    animation: loading 0.55s ease infinite;
 }
 
 @keyframes loading {
@@ -996,7 +996,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #343642;
-    transition: opacity 0.75s, visibility 0.75s;
+    transition: opacity 0.55s, visibility 0.55s;
 }
 
 .loader-hidden{
@@ -1009,10 +1009,10 @@ body {
     content: "";
     width: 80px;
     height: 80px;
-    border: 15px solid white;
+    border: 12px solid white;
     border-top-color: #FF7400;
     border-radius: 100%;
-    animation: loading 0.75s ease infinite;
+    animation: loading 0.55s ease infinite;
 }
 
 @keyframes loading {
