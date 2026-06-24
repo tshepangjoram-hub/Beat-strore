@@ -12,6 +12,46 @@ body {
     
 }
 
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #343642;
+    transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader-hidden{
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+.loader::after{
+    content: "";
+    width: 65px;
+    height: 65px;
+    border: 10px solid white;
+    border-top-color: #FF7400;
+    border-radius: 100%;
+    animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+    
+    from{
+        transform: rotate(0turn);
+    }
+    
+    to{
+        transform: rotate(1turn);
+    }
+    
+}
 
 .logo{
     color: blue;
@@ -945,6 +985,49 @@ body {
     margin-left: 3.5%;
     font-family: none;
 }
+
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #343642;
+    transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader-hidden{
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+.loader::after{
+    content: "";
+    width: 80px;
+    height: 80px;
+    border: 15px solid white;
+    border-top-color: #FF7400;
+    border-radius: 100%;
+    animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+    
+    from{
+        transform: rotate(0turn);
+    }
+    
+    to{
+        transform: rotate(1turn);
+    }
+    
+}
+
+
 .button2{
     box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
      text-decoration: none;
