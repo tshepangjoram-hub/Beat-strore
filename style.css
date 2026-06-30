@@ -28,7 +28,7 @@ body {
 .loader-hidden{
     opacity: 0;
     visibility: hidden;
-    
+    display: none;    
 }
 
 .loader::after{
@@ -1002,6 +1002,7 @@ body {
 .loader-hidden{
     opacity: 0;
     visibility: hidden;
+    display: none;
     
 }
 
