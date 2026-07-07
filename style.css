@@ -22,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #343642;
-    transition: opacity 0.55s, visibility 0.55s;
+    transition: opacity 0.40s, visibility 0.40s;
 }
 
 .loader-hidden{
@@ -38,7 +38,7 @@ body {
     border: 8px solid white;
     border-top-color: #FF7400;
     border-radius: 100%;
-    animation: loading 0.55s ease infinite;
+    animation: loading 0.40s ease infinite;
 }
 
 @keyframes loading {
@@ -996,7 +996,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #343642;
-    transition: opacity 0.55s, visibility 0.55s;
+    transition: opacity 0.40s, visibility 0.40s;
 }
 
 .loader-hidden{
@@ -1013,7 +1013,7 @@ body {
     border: 12px solid white;
     border-top-color: #FF7400;
     border-radius: 100%;
-    animation: loading 0.55s ease infinite;
+    animation: loading 0.40s ease infinite;
 }
 
 @keyframes loading {
